@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "WiFi Light Alarm",
+    "slug": "wifi-light-alarm",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio",
+          "fetch",
+          "remote-notification",
+          "processing"
+        ],
+        "BGTaskSchedulerPermittedIdentifiers": [
+          "com.limitlesscreator.wifilightalarm.taskIdentifier"
+        ],
+        "NSLocationAlwaysUsageDescription": "This app uses your location to show relevant alarms and notifications.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses your location to show relevant alarms and notifications.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show relevant alarms and notifications.",
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone for recording and audio playback.",
+        "NSAudioUsageDescription": "This app needs access to play audio for alarms and notifications.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select audio files.",
+        "UNNotificationCategory": [
+          {
+            "identifier": "alarm",
+            "actions": [
+              {
+                "identifier": "STOP_ALARM",
+                "title": "Stop",
+                "options": [
+                  "foreground"
+                ]
+              },
+              {
+                "identifier": "SNOOZE_ALARM",
+                "title": "Snooze",
+                "options": [
+                  "foreground"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "bundleIdentifier": "com.limitlesscreator.wifilightalarm"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "FOREGROUND_SERVICE",
+        "RECEIVE_BOOT_COMPLETED",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "WAKE_LOCK",
+        "MANAGE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.limitlesscreator.wifilightalarm"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33fb8592-65c5-486a-989f-1ba5c3766558"
+      }
+    },
+    "owner": "maayon14"
+  }
+}

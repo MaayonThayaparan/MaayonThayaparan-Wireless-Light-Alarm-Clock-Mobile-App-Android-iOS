@@ -1,4 +1,4 @@
-# WireLess Light Alarm Clock Mobile App
+# Wireless Light Alarm Clock Mobile App
 
 ## Description
 

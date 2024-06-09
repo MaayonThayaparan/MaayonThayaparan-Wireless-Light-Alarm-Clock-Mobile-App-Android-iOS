@@ -6,7 +6,7 @@ This is a mobile app (iOS + Android) developed using React-Native that has a ful
 
 ## Download: 
 
-- App Store: [http://3.131.168.18:8050/](https://apps.apple.com/ca/app/wifi-light-alarm/id6503112602?platform=iphone)
+- App Store: https://apps.apple.com/ca/app/wifi-light-alarm/id6503112602?platform=iphone
 - Play Store: Waiting on verification and testing. 
 
 ## Demo Video:

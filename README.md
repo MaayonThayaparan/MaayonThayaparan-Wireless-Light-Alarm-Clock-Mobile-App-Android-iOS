@@ -4,6 +4,11 @@
 
 This is a mobile app (iOS + Android) developed using React-Native that has a full featured alarm clock that is fully customizable and configurable with wireless lights (only 'Govee' brand. Future optimization to include APIs for other brands). 
 
+## Download: 
+
+- Deployed on the App Store: [http://3.131.168.18:8050/](https://apps.apple.com/ca/app/wifi-light-alarm/id6503112602?platform=iphone)
+- Deploying on the Play Store (waiting for verification and testing). 
+
 ## Demo Video:
 
 https://www.youtube.com/watch?v=CviftibvQpY
